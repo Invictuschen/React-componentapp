@@ -1,0 +1,16 @@
+.person {
+    color:pink;
+    font:inherit;
+    border:1px solid purple;
+    padding: 2px;
+    cursor: pointer;
+    margin: auto;
+    width:400px;
+}
+
+@media (max-width:450px) {
+    .person{
+        width: 200px;
+    }
+
+}
